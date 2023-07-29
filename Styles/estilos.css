@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 *, *::before, *::after {
     --azul-escuro: #154580;
     --azul-medio: #3970BE;
@@ -21,6 +23,10 @@ body {
 }
 
 /* CABEÇALHO */
+
+.cabecalho__pesquisar__item {
+    display: none;
+}
 
 .cabecalho__container {
     background-color: white;
@@ -57,34 +63,34 @@ body {
 }
 
 .cabecalho__audio {
-    background-image: url(../img/cabecalho/mic.png);
+    background-image: url(../Images/cabecalho/mic.png);
     padding: 20px;
     display: none;
 }
 
 .cabecalho__videos {
-    background-image: url(../img/cabecalho/video_call.png);
+    background-image: url(../Images/cabecalho/video_call.png);
     background-repeat: no-repeat;
     background-position: center;
     padding: 20px;
 }
 
 .cabecalho__apps {
-    background-image: url(../img/cabecalho/apps.png);
+    background-image: url(../Images/cabecalho/apps.png);
     background-repeat: no-repeat;
     background-position: center;
     padding: 13px 30px 13px 13px;
 }
 
 .cabecalho__notificacoes {
-    background-image: url(../img/cabecalho/notifications.png);
+    background-image: url(../Images/cabecalho/notifications.png);
     background-repeat: no-repeat;
     background-position: center;
     padding: 13px 30px 13px 13px;
 }
 
 .cabecalho__avatar {
-    background-image: url(../img/cabecalho/Avatar.png);
+    background-image: url(../Images/cabecalho/Avatar.png);
     background-repeat: no-repeat;
     background-position: center;
     padding: 13px 30px 13px 13px;
@@ -252,6 +258,10 @@ body {
 
     body {
         height: 100vh;
+    }
+
+    .cabecalho__pesquisar__item {
+        display: block;
     }
 
     /* ESTILOS DO MENU LATERAL */
