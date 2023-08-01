@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+.cabecalho_container {
+    display: flex;
+    background: #ecf1ff;
+    color: rgb(0, 0, 141);
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    top: 0%;
+    padding: 10px;
+    justify-content: flex-start;
+}
