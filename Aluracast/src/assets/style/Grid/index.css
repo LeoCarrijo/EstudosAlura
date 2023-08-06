@@ -50,6 +50,7 @@ body {
 
 .secao {
     display: grid;
+    align-items: center;
 }
 
 .secao-horizontal {
@@ -70,6 +71,7 @@ body {
 }
 .secao-horizontal .cartao__titulo {
     grid-area: 1 / 2 / 2 / 3;
+    align-self: end;
 }
 .secao-horizontal .cartao__subtitulo {
     grid-area: 2 / 2 / 3 / 3;
@@ -88,4 +90,14 @@ body {
 
 .secao-vertical .secao__cartoes {
     grid-column: 1 / 3;
+}
+
+.menu-lateral {
+    display: grid;
+    grid-template-rows: auto auto auto 1fr;
+    row-gap: 2rem;
+}
+
+.menu-lateral__logo {
+    justify-self: center;
 }
