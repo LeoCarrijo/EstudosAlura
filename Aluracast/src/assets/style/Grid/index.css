@@ -19,3 +19,30 @@ body {
 .principal {
     grid-area: main;
 }
+
+.secao-horizontal .cartao {
+    display: grid;
+    grid-template-areas: 
+    "img titulo botao"
+    "img subtitulo botao"
+    "img player botao";
+    grid-template-columns: auto 1fr auto;
+}
+
+.cartao__imagem {
+    grid-area: img;
+    padding-right: 10px;
+}
+.cartao__titulo {
+    padding-top: 10px;
+    grid-area: titulo;
+}
+.cartao__subtitulo {
+    grid-area: subtitulo;
+}
+.cartao__player {
+    grid-area: player;
+}
+.cartao__botao {
+    grid-area: botao;
+}
