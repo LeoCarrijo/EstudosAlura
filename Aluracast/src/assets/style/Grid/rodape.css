@@ -1,0 +1,66 @@
+/*rodape*/
+.rodape {
+    display: grid;
+    grid-template-columns: auto 2fr auto 1.5fr repeat(3, auto) repeat(2, 1.5fr) 1fr;
+    grid-template-rows: repeat(2, 50%);
+    column-gap: 0.5rem;
+    align-items: center;
+    background-color: var(--azul-medio);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 1rem;
+}
+
+/* Genericos como barra, botao, etc) */
+.rodape__barra {
+    position: relative;
+    opacity: 0.9;
+    border-radius: 10px;
+    background-color: white;
+    height: 4px;
+}
+
+.rodape__barra div {
+    position: absolute;
+    top: 0;
+    height: 4px;
+    border-radius: 10px;
+    opacity: 0.35;
+    background-color: white;
+}
+
+.rodape__horario {
+    font-size: .75rem;
+}
+
+.barra__container--reproducao,
+.rodape__barra--reproducao div {
+    width: 37vw
+}
+
+.rodape__barra--reproducao {
+    width: 25vw;
+}
+
+.barra__container--volume,
+.rodape__barra--volume div {
+    width: 8vw;
+}
+
+.rodape__barra--volume {
+    width: 4vw;
+}
+
+.rodape__imagem {
+    grid-area: 1 / 1 / 3 / 2;
+}
+
+.rodape__titulo {
+    grid-area: 1 / 2 / 3 / 3;
+}
+
+.rodape__subtitulo {
+    grid-area: 2 / 2 / 3 / 3;
+}
+
