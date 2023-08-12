@@ -21,7 +21,7 @@
 
     .secao__cartoes {
         row-gap: 0.5rem;
-        --gap-coluna: 0.5rem; 
+        --gap-coluna: 1rem; 
     }
 
     .secao-horizontal .cartao {
@@ -34,7 +34,7 @@
     }
 
     .secao-horizontal .cartao__titulo {
-        font: 700 14px/20px Open Sans, sans-serif;
+        font: 700 14px/20px 'Open Sans', sans-serif;
         grid-row: 1 / 4;
         align-self: center;
     }
