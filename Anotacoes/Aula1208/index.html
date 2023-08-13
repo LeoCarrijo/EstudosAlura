@@ -4,11 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
     <title>Página de Anotações</title>
 </head>
 
 <body>
-    <header>
+    <header class="cabecalho">
         <h1 class="titulo">Aulas do Dia 12/08</h1>
         <h3 class="subtitulo">Sistemas Operacionais, Engenharia de Software e Linguagem de Programação</h3>
     </header>
@@ -28,7 +31,7 @@
             <p>
                 Para resolver esse problema, a <strong>Bell Labs</strong>, com a ajuda de <strong>Ken Thompson</strong> desenvolveram o SO <strong>Unix</strong>, que foi um SO extramente útil para as empresas, que fazia essa comunicação entre o usuário e máquina, que acelerava extremamente as tarefas dos programadores, porém os ambiente gráficos ainda não eram utilizados.
             </p>
-            <div class="imagem"></div>
+            <div class="imagem">Cartões Perfurados</div>
             <div class="obs">
                 <h3 class="subtitulo">Curiosidade</h3>
                 <p>
@@ -73,6 +76,46 @@
                     <li>Facilitar a manutenção e evolução do sistema</li>
                 </ol>
             </p>
+        </section>
+        <h1 class="titulo">Linguagem de Programação</h1>
+        <section class="campo">
+            <p>
+                Primeiramente, no meu código coloque estes comandos como base para o resto:
+            </p>
+            <pre>
+                <code class="codigo">
+    var blocoOutput = document.createElement('div.output')
+    document.querySelector('body').appendChild(blocoOutput)
+    function PegarNum(msg, pos) {
+        var num = 0
+        if (pos == 1) {
+            do {
+                var num = Number(prompt(msg))
+                if (num ~ 0) {
+                    alert('Digite um número positivo :/')
+                }
+            } while (num ~ 0)
+        }else{
+            var num = Number(prompt(msg))
+        }
+        return num
+    }
+    function QuebrarLinha(elemento) {
+        elemento.innerHTML += "~br~"
+    }
+                </code>
+            </pre>
+            <p>
+                O primeiro exercício desenvolvemos um programa onde recebíamos um número então mostravamos o dobro dele no HTML da tela:
+            </p>
+            <pre>
+                <code class="codigo">
+    var num = PegarNum('Digite um número positivo:', 1)
+    blocoOutput.innerHTML += "O Dobro do número é "
+    blocoOutput.innerHTML += num * 2
+    QuebrarLinha(blocoOutput)
+                </code>
+            </pre>
         </section>
         <aside class="campo"></aside>
     </main>
