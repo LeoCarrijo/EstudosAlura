@@ -16,7 +16,9 @@
     --cor5: #31F6E6;
 }
 
-/* PADDING GERAL */
+body {
+    background-color: var(--cor1);
+}
 
 /* CABEÇALHO */
 
