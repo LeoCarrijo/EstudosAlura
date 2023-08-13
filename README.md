@@ -7,4 +7,6 @@
 ### <em>Syntactically Awesome Style Sheets</em>
 
 Os arquivos SCSS ou SASS, são muito parecido com o CSS, porém com algumas coisas a mais, por exemplo, ela se parece bem mais com uma linguagem de programação 🖥️
-Porém, os navegadores <strong>não entendem esses arquivos</strong>, que faz com que tenhamos que traduzí-los para CSS para que assim os navegadores consigam os interpretar
+Porém, os navegadores <strong>não entendem esses arquivos</strong>, que faz com que tenhamos que traduzí-los para CSS para que assim os navegadores consigam os interpretar.
+
+OBS: Sempre que vemos um arquivo SCSS com um "_" antes do nome, quer dizer que esse arquivo se trata de uma <strong>partial</strong>
