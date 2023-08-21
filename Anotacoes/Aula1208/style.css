@@ -99,7 +99,13 @@ body {
 }
 
 .citacao {
-
+    background-color: #31f6e63a;
+    font-size: 32px;
+    font-style: italic;
+    text-decoration: underline;
+    text-align: center;
+    padding: 10px 0px;
+    box-shadow: 0px 1px 2px #082b285d;
 }
 
 /* IMAGEM SISTEMAS OPERACIONAIS */
