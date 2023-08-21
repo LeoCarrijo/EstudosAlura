@@ -76,8 +76,45 @@
             </ul>
             <h3 class="subtitulo">Tipos de Sistemas Operacionais</h3>
             <ul class="lista">
-                <li><strong></strong></li>
+                <li><strong>Batch (de lote):</strong></li>
+                <p>São SOs mais antigos, que trabalhavam colocando todos os programas a serem executados em uma fila com seus dados e demais informações. A CPU os processava sem nem mesmo interagir com os usuários, o que permitia um alto grau de utilização do sistema. São SOs utilizados em locais que não possuem interassão direta com o usuário</p>
+                <li><strong>De Rede:</strong></li>
+                <p>São os SOs que possuem a capacidade de se comunicar com outros dispositivos e computadores conectados na rede e até mesmo disponibilizar seus próprios recursos à outros computadores ou dispositivos</p>
+                <li><strong>Distribuído:</strong></li>
+                <p>São os SOs que deixam de forma transparente ao usuário onde estão os recursos que o usuário está utilizando, como por exemplo acessar os arquivos de outro computador ou até mesmo os seus próprios arquivos, nós não decidimos aonde o computador vai armazenar essas informações</p>
+                <li><strong>Multiusuário:</strong></li>
+                <p>Como por exemplo o Windows, ele tem a funcionalidade de ter diversos usuários, cada um com suas permissões e arquivos próprios, inclusive, quando criam um arquivo, a autoridade daquele arquivo passa a ser somente dele por padrão, mas pode ser alterada por ele caso queira</p>
+                <li><strong>Servidor:</strong></li>
+                <p>SO que possui uma capacidade de gerenciar uma quantidade muito maior de recursos (CPU, RAM, Armazenamento) e impor prioridades e limites sobre usuários em seu <em>domínio</em></p>
+                <li><strong>Móvel:</strong></li>
+                <p>Muito utilizados, são os SOs utilizados em aparelhos móveis, obviamente, como o Android e o iOS e possuem recurso a uma variedade maior de recursos como touchscreen e o giroscópio</p>
+                <li><strong>Embarcado:</strong></li>
+                <p>São os SOs presentes no firmware de algum dispositivo eletrônico que o faça funcionar, como por exemplo Micro-ondas, semáforos, leitores biométricos e etc. São sistemas muito básicos utilizados especialmente para fazer com que o hardware onde ele está <em>(Normalmente sem muitos recursos)</em>funcione normalmente</p>
+                <li><strong>Tempo Real:</strong></li>
+                <p>São SOs que não necessáriamente são so mais rápidos, mas que precisam de tempo de resposta previsível, ou seja, a execução de uma tarefa tem que levar a mesma quantidade de tempo independentemente se o hardware o o próprio SO está em más ou boas condições.</p>
+                <p>Eles são separados em duas categorias: <strong><em>críticos e não críticos</em></strong>, onde os críticos são os SOs que caso a falha de alguma das operações podem resultar numa perda gigantesca, como por exemplo um SO de um avião, e os não críticos, onde a falha não causa perdas tão significativas, como por exemplo a injeção eletrônica de um carro</p>
             </ul>
+            <h3 class="subtitulo">Controladora de Dispositivos</h3>
+            <p>
+                São CIs na placa-mãe que controlam algum hardware com a ajuda de um firmware, como por exemplo a controladora USB
+            </p>
+            <h3 class="subtitulo">Política</h3>
+            <p>
+                Aspecto abstrato de alto nível, como por exemplo decidir a quantidade de memória necessária para cada software
+            </p>
+            <h3 class="subtitulo">Mecanismo</h3>
+            <p>
+                Procedimento de baixo nível para <strong>implementar as políticas</strong>, como por exemplo iniciar um processo ou enviar um pacote de rede
+            </p>
+            <h1 class="titulo">Interrupções, Exceções e Traps</h1>
+            <h3 class="subtitulo">Interrupções</h3>
+            <p>
+                Desvia execução por conta de algum evento externo gerado por um periférico <em>(Troca de Contexto)</em>
+            </p>
+            <h3 class="subtitulo">Exceções</h3>
+            <p>
+                Desvia a execução por conta de algum evento interno <em>(Retorna erros numéricos)</em>
+            </p>
         </section>
         <h1 class="titulo">Engenharia de Software</h1>
         <section class="campo">
@@ -86,7 +123,6 @@
                 São necessidades e funcionalidades que um software deve atender aos objketivos do projeto e às expectativas dos usuário. São descrições formais e detalhes das funções, desempenho, restrições e outras características que um sistema deve ter para atender seus usuários
             </p>
             <h3 class="subtitulo">Importância de Levantar o Documento</h3>
-            <p>
                 <ol class="lista">
                     <li>Compreesão clara das necessidades do cliente</li>
                     <li>Redução de erros e retrabalho</li>
