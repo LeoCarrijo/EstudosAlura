@@ -1,0 +1,15 @@
+.agenda__item {
+    display: grid;
+}
+
+.agenda__item img {
+    grid-area: 1 / 1 / 2 / 3;
+}
+
+.agenda__informacoes {
+    grid-area: 2 / 1 / 3 / 2;
+}
+
+.agenda__atracao {
+    grid-area: 2 / 2 / 3 / 3;
+}
