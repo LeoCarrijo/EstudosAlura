@@ -42,7 +42,7 @@
 .agenda__lista {
      display: flex;
      flex-wrap: wrap;
-     gap: 1.5rem;
+     gap: 1rem 1.5rem;
      justify-content: center;
 }
 
