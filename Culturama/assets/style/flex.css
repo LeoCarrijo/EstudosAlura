@@ -50,11 +50,19 @@
      flex-grow: 1;
 }
 
+.agenda__informacoes {
+     display: flex;
+     flex-direction: column;
+     justify-content: space-evenly;
+}
+
 .rodape {
      display: flex;
      flex-wrap: wrap;
      justify-content: space-between;
 }
+
+
 
 @media (min-width: 720px) {
     .menu {
