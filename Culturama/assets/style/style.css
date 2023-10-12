@@ -296,6 +296,10 @@ img:hover {
     padding-top: 1rem;
 }
 
+.agenda__informacoes h3, .agenda__informacoes h4, .agenda__informacoes h5 {
+    padding: 8px 0px;
+}
+
 .agenda__informacoes h3 {
     font-size: 2rem;
 }
