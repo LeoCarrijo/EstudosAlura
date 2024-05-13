@@ -1,0 +1,10 @@
+{
+    "compilerOptions": { // configurações do compilador TS
+        "outDir": "dist/js", // pasta de output da compilação dos arquivos TS
+        "target": "ES6", // converter todo o TS para uma versão do JS correspondendo ao EcmaScript 6
+        "noEmitOnError": true // não gerar os arquivos js caso haja erro no TS 
+    },
+    "include": [
+        "app/**/*" // compile as pasta qualquer pasta e arquivo dentro da pasta /app
+    ]
+}
