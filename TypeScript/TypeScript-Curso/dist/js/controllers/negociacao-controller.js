@@ -1,16 +1,19 @@
 import { Negociacao } from "../models/negociacao.js";
 import { Negociacoes } from '../models/negociacoes.js';
+import { NegociacoesView } from "../views/negociacoes-view.js";
 export class NegociacaoController {
     constructor() {
         this._negociacoes = new Negociacoes();
+        this._negociacoesView = new NegociacoesView('#negociacoesView');
         this._inpData = document.querySelector('#data');
         this._inpQuatidade = document.querySelector('#quantidade');
         this._inpValor = document.querySelector('#valor');
+        this._negociacoesView.update(this._negociacoes);
     }
     adicionar() {
         const negociacao = this.criarNegociacao();
         this._negociacoes.adicionar(negociacao);
-        negociacao.data.setDate(12);
+        this._negociacoesView.update(this._negociacoes);
         console.log(this._negociacoes.listar());
         this.limparFormulario();
     }
