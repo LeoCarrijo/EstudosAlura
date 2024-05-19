@@ -1,4 +1,4 @@
-{
+{ 
     "compilerOptions": { // configurações do compilador TS
         "outDir": "dist/js", // pasta de output da compilação dos arquivos TS
         "target": "ES6", // converter todo o TS para uma versão do JS correspondendo ao EcmaScript 6
