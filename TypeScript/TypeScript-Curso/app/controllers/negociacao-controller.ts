@@ -13,9 +13,9 @@ export class NegociacaoController {
     private _mensagemView: MensagemView = new MensagemView('#mensagemView');
 
     constructor() { // construtores não são tipados
-        this._inpData = document.querySelector('#data');
-        this._inpQuatidade = document.querySelector('#quantidade');
-        this._inpValor = document.querySelector('#valor');
+        this._inpData = document.querySelector('#data') as HTMLInputElement;
+        this._inpQuatidade = <HTMLInputElement>document.querySelector('#quantidade');
+        this._inpValor = document.querySelector('#valor') as HTMLInputElement;
         this._negociacoesView.update(this._negociacoes);
     }
 

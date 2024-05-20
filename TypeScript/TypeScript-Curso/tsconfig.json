@@ -4,7 +4,8 @@
         "target": "ES6", // converter todo o TS para uma versão do JS correspondendo ao EcmaScript 6
         "noEmitOnError": true, // não gerar os arquivos js caso haja erro no TS 
         "noImplicitAny": true, // impede que o tipo "any" seja utilizado de forma implícita
-        "removeComments": true // impede que os comentários sejam compilados
+        "removeComments": true, // impede que os comentários sejam compilados
+        "strictNullChecks": true
     },
     "include": [
         "app/**/*" // compile as pasta qualquer pasta e arquivo dentro da pasta /app
