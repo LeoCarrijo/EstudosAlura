@@ -1,4 +1,4 @@
-import { NegociacaoController } from "./controllers/negociacao-controller.js"; // Colocar .js no final do arquivo importado
+import { NegociacaoController } from "./controllers/negociacao-controller.js";
 const controller = new NegociacaoController();
 const form = document.querySelector('.form');
 form.addEventListener('submit', event => {
