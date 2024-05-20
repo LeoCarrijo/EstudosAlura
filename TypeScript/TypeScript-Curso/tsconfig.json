@@ -5,9 +5,9 @@
         "noEmitOnError": true, // não gerar os arquivos js caso haja erro no TS 
         "noImplicitAny": true, // impede que o tipo "any" seja utilizado de forma implícita
         "removeComments": true, // impede que os comentários sejam compilados
-        "strictNullChecks": true
+        "strictNullChecks": true // impede que as variáveis possam receber T | null
     },
     "include": [
-        "app/**/*" // compile as pasta qualquer pasta e arquivo dentro da pasta /app
+        "app/src/**/*" // compile qualquer pasta e arquivo dentro da pasta /app/src
     ]
 }
