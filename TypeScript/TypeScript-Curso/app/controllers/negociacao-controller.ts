@@ -9,7 +9,7 @@ export class NegociacaoController {
     private _inpQuatidade: HTMLInputElement;
     private _inpValor: HTMLInputElement;
     private _negociacoes: Negociacoes = new Negociacoes();
-    private _negociacoesView: NegociacoesView = new NegociacoesView('#negociacoesView');
+    private _negociacoesView: NegociacoesView = new NegociacoesView('#negociacoesView', true);
     private _mensagemView: MensagemView = new MensagemView('#mensagemView');
 
     constructor() { // construtores não são tipados
