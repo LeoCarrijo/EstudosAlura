@@ -21,8 +21,7 @@ export class NegociacaoController {
     adicionar(): void {
         const negociacao = this.criarNegociacao();
         this._negociacoes.adicionar(negociacao);
-        this._negociacoesView.update(this._negociacoes);
-        this._mensagemView.update('Negociação Adicionada com Sucesso');
+        this.atualizaView();
         console.log(this._negociacoes.listar());
         this.limparFormulario();
     }
@@ -40,5 +39,10 @@ export class NegociacaoController {
         this._inpQuatidade.value = '';
         this._inpValor.value = '';
         this._inpData.focus();
+    }
+
+    private atualizaView(): void {
+        this._negociacoesView.update(this._negociacoes)
+        this._mensagemView.update("Negociação adicionada com Sucesso")
     }
 }
